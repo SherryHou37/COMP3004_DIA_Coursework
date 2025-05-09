@@ -1,0 +1,79 @@
+[
+    {
+        "input": "I guess if its free I have been walking 6 miles a day on a treadmill & my ankles & knees are so swollen. but my feet burn like fire all the time when on them for hours & hurt so bad & that has been going on for years before a treadmill. wondering what is wrong with me. I hope its not diabetes",
+        "output": "Hello, The symptoms seem to be related to peripheral neuropathy. The symptoms can be related to diabetes. I suggest checking the glycemic level for further evaluation. Meanwhile, you can try over the counter option. Such as Ibuprofen. If they will others be effective you should consult your doctor about prescription painkillers such as Gabapentin. Hope I have answered your query. Let me know if I can assist you further. Take care Chat Doctor."
+    },
+    {
+        "input": "Hi just waiting on mri scan but neurologist wouldny hint at what she thought was wrong with me. I have been experiencing tingling over head, mainly left side. This has been going on for couple of months along with dull headaches across front of head. I have also been getting some numbness left side of face and buning sensation at end of fingers. This is on right hand. Please note numbness and burning happen frequently but lasts no longer then a couple of hours whereas the tingling in head is majority time.",
+        "output":"Hi, Thank you for posting your query. Your symptoms are minor, but we need to exclude a lesion in the brain. There are various possibilities, such as declination (multiple sclerosis), ischemia (lack of blood flow), infections, tumors, etc. All these conditions can be excluded by the MRI. As of now, there is no need to worry, as you would benefit from appropriate treatment that can be started after the MRI report is available. Please get back if you require any additional information. Best wishes, Chat Doctor."
+    },
+    {
+        "input":"I am 49 years old. I have been getting pains shooting in different areas of my body (arms, legs, back) for year 1/2. all blood work fine, rhematologist checked for Rhematoid Artritus and Lupus was negative. a few months ago, i started getting pains in my shoulder blades and rib cage under the breast area, especially on the right. Had ultrasound of abdomen done and no gallstones, everything looked fine. could this be from my hormones and or pms? Pains in shoulders get worse when ovulating...pain all over body becomes less while ovulating!",
+        "output":"Hello, I have studied your case. I will advise you to do PET SCAN so that activity and reaction around bone can be identified. PET scan will differentiate between simple or with metastatic lesion if any. Many of my patients of get improvement in morbidity by yoga Panama so you can also do that. Hope this answers your query. If you have additional questions or follow-up queries then please do not hesitate in writing to us. I will be happy to answer your queries. Wishing you good health. Take care."
+    },
+    {
+        "input":"I have been experiencing a great amount of lower back pain these past few weeks. About 5 or 6 weeks ago I was hit in the back with someone s shoulder pad while playing football. I visited a chiropractor and he said there was nothing wrong and that everything looked great. Although the pain is still very intense and is keeping me from doing a great amount of daily activities. What do I do? What do I do?",
+        "output":"Dear patient This seems high velocity back trauma and needs to be investigated with X-ray of lumbosacral spine anteroposterior and lateral views to rule out bony abnormalities.  If it shows fracture need to consult expert spine surgeon and get yourself examined.  If report is normal its back sprain and need to take rest for 3 days. Take tab diclofenac plus thiocolchicoside combination twice a day for pain relief. Apply nice gel locally at site of pain thrice a day.  You we be fine in a week."
+    },
+   {
+        "input": "I have been experiencing frequent headaches and dizziness for the past two weeks. Should I be worried?",
+        "output": "Hello, it seems you may be experiencing tension headaches or migraines. However, since it has been persistent for two weeks, I recommend you visit your doctor for a detailed evaluation, including a neurological examination. Stay hydrated and try to manage your stress. If the symptoms worsen, please seek immediate medical attention. Take care, Chat Doctor."
+    },
+    {
+        "input": "I have had a sore throat and mild fever for three days. Could this be strep throat?",
+        "output": "Hi, your symptoms could be due to a viral infection or strep throat. I recommend you see your doctor for a throat swab test to confirm. In the meantime, you can try warm saline gargles and over-the-counter pain relievers for relief. If symptoms persist, please follow up with your doctor. Take care, Chat Doctor."
+    },
+    {
+        "input": "My left knee has been swollen and painful for a week, especially when I walk. What should I do?",
+        "output": "Hello, the swelling and pain in your knee could be due to a ligament injury, arthritis, or bursitis. Please rest your knee, apply ice, and keep it elevated. Avoid putting weight on it. If the pain persists or worsens, consult an orthopedic specialist for further evaluation. Take care, Chat Doctor."
+    },
+    {
+        "input": "I have been feeling anxious and having trouble sleeping. Is this normal?",
+        "output": "Hello, it is common to experience anxiety and sleep disturbances due to stress. I recommend practicing relaxation techniques like deep breathing or meditation. Maintain a regular sleep schedule and avoid caffeine before bedtime. If your anxiety persists, please consult a mental health professional. Take care, Chat Doctor."
+    },
+    {
+        "input": "I have a rash on my arms and it is very itchy. Could it be an allergy?",
+        "output": "Hello, your symptoms could be due to an allergic reaction, eczema, or contact dermatitis. I recommend using a hypoallergenic moisturizer and an over-the-counter antihistamine for relief. If the rash spreads or worsens, please see your doctor for an evaluation. Take care, Chat Doctor."
+    },
+    {
+        "input": "I have a persistent cough with thick yellow phlegm. Is this serious?",
+        "output": "Hello, a persistent cough with thick yellow phlegm could indicate a respiratory infection, such as bronchitis. Please drink plenty of fluids, avoid smoking, and consider seeing your doctor for a chest examination. If you develop shortness of breath or high fever, seek immediate medical help. Take care, Chat Doctor."
+    },
+    {
+        "input": "My hands keep shaking, especially when I am nervous. Should I be worried?",
+        "output": "Hi, mild hand tremors can occur due to anxiety or stress. However, if the tremors persist, worsen, or occur at rest, please consult a neurologist to rule out other conditions like essential tremor or Parkinson’s disease. Take care, Chat Doctor."
+    },
+    {
+        "input": "I have been having sharp pain in my chest for a few seconds, then it goes away. Is this serious?",
+        "output": "Hello, sharp chest pain that comes and goes may be due to muscle strain, acid reflux, or costochondritis. However, if the pain is severe, radiates to your arm or jaw, or is accompanied by shortness of breath, please seek immediate medical attention. Take care, Chat Doctor."
+    },
+    {
+        "input": "I have been feeling extremely tired for the past month. Could this be anemia?",
+        "output": "Hi, extreme fatigue can be a symptom of anemia, thyroid issues, or other underlying conditions. I recommend seeing your doctor for a complete blood count (CBC) test to check for anemia. Make sure you have a balanced diet, and stay hydrated. Take care, Chat Doctor."
+    },
+    {
+        "input": "My left ear has been ringing for a week. What could be causing this?",
+        "output": "Hello, ringing in the ear, also known as tinnitus, can be caused by earwax buildup, exposure to loud noise, or an ear infection. Please avoid loud noises and see your doctor for an ear examination. Take care, Chat Doctor."
+    },
+    {
+        "input": "I have had stomach cramps and diarrhea for three days. What should I do?",
+        "output": "Hi, it sounds like you may have a gastrointestinal infection. Please stay hydrated, avoid spicy or greasy foods, and consider using an over-the-counter rehydration solution. If symptoms persist or worsen, please see your doctor for further evaluation. Take care, Chat Doctor."
+    },
+    {
+        "input": "I have noticed a small lump on my neck. Is this something serious?",
+        "output": "Hello, a small lump on the neck could be an enlarged lymph node, which can happen due to an infection. However, if the lump grows, becomes painful, or lasts for more than two weeks, please see your doctor for an evaluation. Take care, Chat Doctor."
+    },
+    {
+        "input": "I have been having frequent nosebleeds recently. What could be causing this?",
+        "output": "Hello, frequent nosebleeds can be due to dry air, nasal irritation, or a bleeding disorder. Please use a humidifier, avoid picking your nose, and apply a thin layer of petroleum jelly inside your nostrils. If the nosebleeds persist, see your doctor for further evaluation. Take care, Chat Doctor."
+    },
+    {
+        "input": "I have been having difficulty swallowing solid foods. Could this be serious?",
+        "output": "Hi, difficulty swallowing solid foods could be due to a throat infection, acid reflux, or in rare cases, an esophageal problem. I recommend seeing an ENT specialist for further evaluation. If you experience weight loss or severe pain, seek immediate medical attention. Take care, Chat Doctor."
+    },
+    {
+        "input": "My eyes have been red and itchy for two days. Is this conjunctivitis?",
+        "output": "Hello, red and itchy eyes could be due to conjunctivitis (pink eye), an allergy, or dry eyes. Please avoid rubbing your eyes, use artificial tears, and maintain good hygiene. If symptoms worsen, please see your doctor for further evaluation. Take care, Chat Doctor."
+    }
+
+]
