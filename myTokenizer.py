@@ -3,15 +3,12 @@ import unicodedata
 import pickle
 from tensorflow.keras.preprocessing.text import Tokenizer
 import re
-import string
 import os
 
 MAXIUM_DATA_LENGTH = 10000
 
 class myTokenizer:
     def __init__(self, num_words=8000, oov_token="<UNKNOWN>"):
-        # it is essential to set filter:  filters='!"#$%&()*+,-./:;=?@[\\]^_`{|}~\t\n'
-        # since we use <p> and <title_end> as special tokens
         self.tokenizer = Tokenizer(
             num_words=num_words, 
             oov_token=oov_token,
@@ -25,7 +22,6 @@ class myTokenizer:
         if not os.path.exists(parquet_path):
             raise FileNotFoundError(f"not find this parquest file: {parquet_path}")
         df = pd.read_parquet(parquet_path).dropna().head(MAXIUM_DATA_LENGTH)
-        # pick the needed columns
         df[inputCol] = df[inputCol].apply(self.clean_text)
         df[outputCol] = df[outputCol].apply(self.clean_text)
         texts = df[inputCol].tolist() + df[outputCol].tolist()
@@ -36,7 +32,6 @@ class myTokenizer:
         if not os.path.exists(json_path):
             raise FileNotFoundError(f"not find this parquest file: {json_path}")
         df = pd.read_json(json_path, lines=True).dropna().head(MAXIUM_DATA_LENGTH)
-        # pick the needed columns
         df[inputCol] = df[inputCol].apply(self.clean_text)
         df[outputCol] = df[outputCol].apply(self.clean_text)
         texts = df[inputCol].tolist() + df[outputCol].tolist()
@@ -55,8 +50,6 @@ class myTokenizer:
 
     @staticmethod
     def load_tokenizer(load_path="myTokenizer.pkl"):
-        if not os.path.exists(load_path):
-            raise FileNotFoundError(f"Tokenizer file not found: {load_path}")
         with open(load_path, "rb") as f:
             tokenizer = pickle.load(f)
         print(f"✅ Tokenizer is loaded successfully: {load_path}")
@@ -65,6 +58,12 @@ class myTokenizer:
     @staticmethod
     def unicode_to_ascii(s):
         return ''.join(c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn')
+    
+    @staticmethod
+    def split_numbers_and_units(text):
+        text = re.sub(r'(\d+)([a-zA-Z]+)', r'\1 \2', text)  # 25kg -> 25 kg
+        text = re.sub(r'(\$)(\d+)', r'\1 \2', text)          # $415 -> $ 415
+        return text
     
     @staticmethod
     def clean_text(text):
@@ -84,8 +83,7 @@ class myTokenizer:
         text = re.sub(r"won't", "will not", text)
         text = re.sub(r"can't", "cannot", text)
         text = re.sub(r"n't", " not", text)
-
-        text = re.sub(r"([?.!,])", r" \1 ", text)  # 让标点成为独立词
+        text = re.sub(r"([?.!,])", r" \1 ", text) 
         text = re.sub(r"\s+", " ", text).strip()
 
         text =  "<start> " +  text + " <end>"

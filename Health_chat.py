@@ -142,6 +142,7 @@ class HealthChat:
         sos_idx = self.tokenizerForPhysicalHealth.word_index.get("<start>", "<Not found>")
         eos_idx = self.tokenizerForPhysicalHealth.word_index.get("<end>", "<Not found>")
         src_tokens = [src_vocab.get(tok, src_vocab['<UNKNOWN>']) for tok in input_text.split()]
+        src_tokens = [1 if tok > 15000 else tok for tok in src_tokens]
         src_tensor = torch.LongTensor(src_tokens)
         if self.current_model == 1:
             output_ids = self.response_LSTM(src_tensor, src_vocab, trg_vocab, DEVICE)
